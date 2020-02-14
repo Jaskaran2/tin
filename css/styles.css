@@ -20,7 +20,7 @@ h2{
 /*div of class cojtainer-fluid*/
 #mine{
   padding-top: 3%;
-  padding-bottom:3%;
+  padding-bottom:7%;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -57,6 +57,8 @@ h2{
 {
   width: 55%;
   transform: rotate(25deg);
+right: 30%;
+  position: absolute;
 }
 /* fetaure section */
 h3{
@@ -64,6 +66,9 @@ h3{
 }
 #features{
   padding: 7% 13%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 .feature-box{
   font-family: "Montserrat-black";
@@ -115,14 +120,42 @@ margin: 20px;
 }
 /* cta */
 #cta{
-  text-align: center;
+  padding: 7% 15%;
   background-color: #ff4c68 ;
+  color: #fff;
+  text-align: center;
 
 
 }
+.hh2{
+  font-family: "Montserrat-black";
+  font-size:3.5rem;
+}
+
 /* footer */
 #footer{
   text-align: center;
-  background-color:  #ff4c68;
 
+  background-color:  #fff;
+
+}
+.foot{
+  font-family: "Montserrat-black";
+}
+.last{
+  margin-right: 2%;
+  margin-top: 3%;
+}
+
+
+
+
+
+@media (max-width:1028px) {.title-image{
+  position:static;
+  transform: rotate(0);
+}
+  #title{
+    text-align: centre;
+  }
 }
