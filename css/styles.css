@@ -6,6 +6,9 @@ h2{
   font-size: 3rem;
   line-height: 1.5;
 }
+h3{
+  font-family: "Montserrat-bold";
+}
 /* title section */
 #title{
   background-color: #ff4c68;
@@ -61,9 +64,7 @@ right: 30%;
   position: absolute;
 }
 /* fetaure section */
-h3{
-  font-family: "Montserrat-bold"
-}
+
 #features{
   padding: 7% 13%;
   background-color: white;
